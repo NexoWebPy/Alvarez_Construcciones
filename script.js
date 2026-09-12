@@ -1,4 +1,18 @@
-document.addEventListener("DOMContentLoaded", () => {
+// =====================================================
+// VOLVER AL INICIO AL RECARGAR LA PÁGINA
+// =====================================================
+
+if ("scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+}
+
+window.addEventListener("beforeunload", () => {
+    window.scrollTo(0, 0);
+});
+
+window.addEventListener("load", () => {
+    window.scrollTo(0, 0);
+});document.addEventListener("DOMContentLoaded", () => {
 
   /* =========================================================
      CONFIGURACIÓN
