@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../catalogo-joyeria"
+		},
+		{
+			"path": "../ClariNais"
+		},
+		{
+			"path": "../Importaciones_San_Carlos"
+		},
+		{
+			"path": "../Joyeria"
+		},
+		{
+			"path": "../JrMotor-web"
+		},
+		{
+			"path": "../Lavadero Mta"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Ac-Construcciones"
+	}
+}
