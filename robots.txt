@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nexowebpy.github.io/Alvarez_Construcciones/sitemap.xml
