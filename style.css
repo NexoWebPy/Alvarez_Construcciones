@@ -4446,4 +4446,12 @@ transition: all .4s ease;
     }
 
 }
+* {
+    box-sizing: border-box;
+}
 
+html,
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
