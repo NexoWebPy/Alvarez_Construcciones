@@ -4,7 +4,7 @@
 <head>
 
     <!-- =====================================================
-         CONFIGURACIÓN
+         CONFIGURACIÓN PRINCIPAL
     ====================================================== -->
 
     <meta charset="UTF-8">
@@ -15,17 +15,73 @@
     <meta name="theme-color"
           content="#111111">
 
-    <meta name="description"
-          content="AC Alvarez Construcciones — Diseño y construcción de Casas Alpinas A-Frame, cabañas, piscinas y proyectos personalizados en Paraguay.">
+    <meta name="color-scheme"
+          content="dark light">
 
-    <meta name="keywords"
-          content="casas alpinas Paraguay, casas A-Frame Paraguay, cabañas Paraguay, construcción Paraguay, casas de madera, piscinas Paraguay, AC Alvarez Construcciones">
+    <meta name="format-detection"
+          content="telephone=yes">
+
+    <meta name="language"
+          content="Spanish">
+
+    <meta name="content-language"
+          content="es-PY">
+
+
+    <!-- =====================================================
+         GOOGLE SEARCH CONSOLE
+         Mantener el archivo HTML de verificación en la raíz.
+    ====================================================== -->
+
+    <!--
+    Si utilizaste el método "Archivo HTML",
+    NO necesitás esta metaetiqueta.
+
+    Si Google te proporciona una etiqueta HTML,
+    colocala aquí:
+
+    <meta name="google-site-verification"
+          content="TU_CODIGO">
+    -->
+
+
+    <!-- =====================================================
+         SEO PRINCIPAL
+    ====================================================== -->
+
+    <title>
+        AC Alvarez Construcciones | Casas Alpinas A-Frame en Paraguay
+    </title>
+
+    <meta name="description"
+          content="AC Alvarez Construcciones diseña y construye Casas Alpinas A-Frame, cabañas, piscinas y proyectos personalizados en Paraguay. Conocé nuestros proyectos y consultá por tu próxima construcción.">
 
     <meta name="author"
           content="AC Alvarez Construcciones">
 
+    <meta name="publisher"
+          content="AC Alvarez Construcciones">
+
     <meta name="robots"
-          content="index, follow">
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <meta name="googlebot"
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+
+    <!-- =====================================================
+         KEYWORDS
+         No es un factor principal de ranking para Google,
+         pero se mantiene como referencia semántica.
+    ====================================================== -->
+
+    <meta name="keywords"
+          content="casas alpinas Paraguay, casas A-Frame Paraguay, casas alpinas A-Frame, cabañas Paraguay, construcción Paraguay, casas de madera Paraguay, piscinas Paraguay, construcción de cabañas, proyectos personalizados, AC Alvarez Construcciones">
+
+
+    <!-- =====================================================
+         GEO / SEO LOCAL
+    ====================================================== -->
 
     <meta name="geo.region"
           content="PY">
@@ -33,18 +89,12 @@
     <meta name="geo.country"
           content="Paraguay">
 
-
-    <!-- =====================================================
-         TÍTULO
-    ====================================================== -->
-
-    <title>
-        AC Alvarez Construcciones | Casas Alpinas A-Frame en Paraguay
-    </title>
+    <meta name="geo.placename"
+          content="Paraguay">
 
 
     <!-- =====================================================
-         CANONICAL
+         URL CANÓNICA
     ====================================================== -->
 
     <link
@@ -55,10 +105,14 @@
 
     <!-- =====================================================
          OPEN GRAPH
+         WhatsApp / Facebook / Messenger
     ====================================================== -->
 
     <meta property="og:type"
           content="website">
+
+    <meta property="og:site_name"
+          content="AC Alvarez Construcciones">
 
     <meta property="og:locale"
           content="es_PY">
@@ -67,30 +121,48 @@
           content="AC Alvarez Construcciones | Casas Alpinas A-Frame">
 
     <meta property="og:description"
-          content="Diseñamos y construimos Casas Alpinas, cabañas, piscinas y proyectos personalizados en Paraguay.">
+          content="Diseño y construcción de Casas Alpinas A-Frame, cabañas, piscinas y proyectos personalizados en Paraguay.">
 
     <meta property="og:url"
           content="https://nexowebpy.github.io/Alvarez_Construcciones/">
 
     <meta property="og:image"
-          content="https://nexowebpy.github.io/Alvarez_Construcciones/CasaAlpinaLogo.jpeg">
+          content="https://nexowebpy.github.io/Alvarez_Construcciones/Fo1.jpg">
+
+    <meta property="og:image:secure_url"
+          content="https://nexowebpy.github.io/Alvarez_Construcciones/Fo1.jpg">
+
+    <meta property="og:image:type"
+          content="image/jpeg">
+
+    <meta property="og:image:width"
+          content="1200">
+
+    <meta property="og:image:height"
+          content="630">
+
+    <meta property="og:image:alt"
+          content="AC Alvarez Construcciones - Casas Alpinas A-Frame en Paraguay">
 
 
     <!-- =====================================================
-         TWITTER CARD
+         TWITTER / X
     ====================================================== -->
 
     <meta name="twitter:card"
           content="summary_large_image">
 
     <meta name="twitter:title"
-          content="AC Alvarez Construcciones">
+          content="AC Alvarez Construcciones | Casas Alpinas A-Frame">
 
     <meta name="twitter:description"
-          content="Casas Alpinas A-Frame y proyectos de construcción en Paraguay.">
+          content="Casas Alpinas A-Frame, cabañas, piscinas y proyectos personalizados en Paraguay.">
 
     <meta name="twitter:image"
-          content="https://nexowebpy.github.io/Alvarez_Construcciones/CasaAlpinaLogo.jpeg">
+          content="https://nexowebpy.github.io/Alvarez_Construcciones/Fo1.jpg">
+
+    <meta name="twitter:image:alt"
+          content="Casa Alpina A-Frame de AC Alvarez Construcciones">
 
 
     <!-- =====================================================
@@ -101,6 +173,23 @@
         rel="icon"
         type="image/jpeg"
         href="CasaAlpinaLogo.jpeg"
+    >
+
+    <link
+        rel="apple-touch-icon"
+        href="CasaAlpinaLogo.jpeg"
+    >
+
+
+    <!-- =====================================================
+         SITEMAP
+    ====================================================== -->
+
+    <link
+        rel="sitemap"
+        type="application/xml"
+        title="Sitemap"
+        href="sitemap.xml"
     >
 
 
@@ -153,25 +242,38 @@
 
     <!-- =====================================================
          SCHEMA.ORG
+         EMPRESA
     ====================================================== -->
 
     <script type="application/ld+json">
-
     {
         "@context": "https://schema.org",
         "@type": "ConstructionCompany",
 
+        "@id": "https://nexowebpy.github.io/Alvarez_Construcciones/#organization",
+
         "name": "AC Alvarez Construcciones",
 
-        "description": "Diseño y construcción de Casas Alpinas A-Frame, cabañas, piscinas y proyectos personalizados en Paraguay.",
+        "alternateName": "AC Alvarez",
 
         "url": "https://nexowebpy.github.io/Alvarez_Construcciones/",
 
-        "image": "https://nexowebpy.github.io/Alvarez_Construcciones/CasaAlpinaLogo.jpeg",
+        "description": "Diseño y construcción de Casas Alpinas A-Frame, cabañas, piscinas y proyectos personalizados en Paraguay.",
+
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://nexowebpy.github.io/Alvarez_Construcciones/CasaAlpinaLogo.jpeg"
+        },
+
+        "image": [
+            "https://nexowebpy.github.io/Alvarez_Construcciones/Fo1.jpg"
+        ],
 
         "telephone": "+595981704655",
 
         "priceRange": "$$",
+
+        "currenciesAccepted": "PYG",
 
         "address": {
             "@type": "PostalAddress",
@@ -183,15 +285,221 @@
             "name": "Paraguay"
         },
 
-       "sameAs": [
-    "https://www.instagram.com/alva.rez_construcciones/",
-    "https://www.facebook.com/AlvarezConstruccionesPy",
-    "https://www.tiktok.com/@alvarezconstrucciones1"
-]
+        "knowsAbout": [
+            "Casas Alpinas",
+            "Casas A-Frame",
+            "Cabañas",
+            "Construcción de viviendas",
+            "Piscinas",
+            "Proyectos personalizados"
+        ],
 
+        "sameAs": [
+            "https://www.instagram.com/alva.rez_construcciones/",
+            "https://www.facebook.com/AlvarezConstruccionesPy",
+            "https://www.tiktok.com/@alvarezconstrucciones1"
+        ]
     }
-
     </script>
+
+
+    <!-- =====================================================
+         SCHEMA.ORG
+         SITIO WEB
+    ====================================================== -->
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+
+        "@id": "https://nexowebpy.github.io/Alvarez_Construcciones/#website",
+
+        "name": "AC Alvarez Construcciones",
+
+        "url": "https://nexowebpy.github.io/Alvarez_Construcciones/",
+
+        "description": "Sitio web oficial de AC Alvarez Construcciones. Casas Alpinas A-Frame, cabañas, piscinas y proyectos personalizados en Paraguay.",
+
+        "publisher": {
+            "@id": "https://nexowebpy.github.io/Alvarez_Construcciones/#organization"
+        },
+
+        "inLanguage": "es-PY"
+    }
+    </script>
+
+
+    <!-- =====================================================
+         SCHEMA.ORG
+         BREADCRUMBS
+    ====================================================== -->
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://nexowebpy.github.io/Alvarez_Construcciones/"
+            }
+        ]
+    }
+    </script>
+
+
+    <!-- =====================================================
+         SCHEMA.ORG
+         SERVICIOS
+    ====================================================== -->
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+
+        "name": "Servicios de AC Alvarez Construcciones",
+
+        "itemListElement": [
+
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@type": "Service",
+                    "name": "Casas Alpinas A-Frame",
+                    "description": "Diseño y construcción de Casas Alpinas A-Frame en Paraguay.",
+                    "provider": {
+                        "@id": "https://nexowebpy.github.io/Alvarez_Construcciones/#organization"
+                    },
+                    "areaServed": {
+                        "@type": "Country",
+                        "name": "Paraguay"
+                    }
+                }
+            },
+
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@type": "Service",
+                    "name": "Construcción de Cabañas",
+                    "description": "Diseño y construcción de cabañas en Paraguay.",
+                    "provider": {
+                        "@id": "https://nexowebpy.github.io/Alvarez_Construcciones/#organization"
+                    },
+                    "areaServed": {
+                        "@type": "Country",
+                        "name": "Paraguay"
+                    }
+                }
+            },
+
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@type": "Service",
+                    "name": "Construcción de Piscinas",
+                    "description": "Desarrollo de proyectos de piscinas para espacios residenciales y recreativos.",
+                    "provider": {
+                        "@id": "https://nexowebpy.github.io/Alvarez_Construcciones/#organization"
+                    },
+                    "areaServed": {
+                        "@type": "Country",
+                        "name": "Paraguay"
+                    }
+                }
+            },
+
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@type": "Service",
+                    "name": "Proyectos Personalizados",
+                    "description": "Desarrollo de proyectos de construcción personalizados según las necesidades de cada cliente.",
+                    "provider": {
+                        "@id": "https://nexowebpy.github.io/Alvarez_Construcciones/#organization"
+                    },
+                    "areaServed": {
+                        "@type": "Country",
+                        "name": "Paraguay"
+                    }
+                }
+            }
+
+        ]
+    }
+    </script>
+
+
+    <!-- =====================================================
+         SCHEMA.ORG
+         FAQ
+    ====================================================== -->
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "¿Qué construye AC Alvarez Construcciones?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "AC Alvarez Construcciones diseña y construye Casas Alpinas A-Frame, cabañas, piscinas y proyectos personalizados en Paraguay."
+                }
+            },
+
+            {
+                "@type": "Question",
+                "name": "¿Construyen Casas Alpinas A-Frame en Paraguay?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sí. AC Alvarez Construcciones desarrolla proyectos de Casas Alpinas A-Frame en Paraguay."
+                }
+            },
+
+            {
+                "@type": "Question",
+                "name": "¿Realizan proyectos personalizados?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sí. Los proyectos pueden adaptarse a las necesidades, características y objetivos de cada cliente."
+                }
+            },
+
+            {
+                "@type": "Question",
+                "name": "¿AC Alvarez Construcciones trabaja en Paraguay?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sí. AC Alvarez Construcciones ofrece sus servicios de construcción en Paraguay."
+                }
+            },
+
+            {
+                "@type": "Question",
+                "name": "¿Cómo puedo solicitar información sobre un proyecto?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Podés comunicarte con AC Alvarez Construcciones al +595 981 704 655 para consultar sobre proyectos y servicios."
+                }
+            }
+
+        ]
+    }
+    </script>
+
 
 </head>
 
