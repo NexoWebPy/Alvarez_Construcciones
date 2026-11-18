@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es-PY">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0a0a0a">
+    <meta name="description" content="Términos y Condiciones de AC Alvarez Construcciones.">
+    <meta name="robots" content="index, follow">
+    <title>Términos y Condiciones | AC Alvarez Construcciones</title>
+
+    <link rel="icon" type="image/jpeg" href="CasaAlpinaLogo.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+   <style>
+    :root {
+        --primary-dark: #0a0a0a;    /* Fondo general de la página */
+        --card-dark: #161616;       /* Fondo de la tarjeta central */
+        --accent: #c5a880;          /* Tono dorado / bronce premium */
+        --accent-glow: rgba(197, 168, 128, 0.15);
+        --text-heading: #ffffff;    /* Color de títulos (Blanco puro) */
+        --text-body: #d4d4d4;       /* Color de texto/párrafos (Gris claro de alto contraste) */
+        --text-muted: #a0a0a0;      /* Color secundario */
+        --border-subtle: rgba(255, 255, 255, 0.1);
+        --shadow-premium: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+        --transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        background-color: var(--primary-dark) !important;
+        color: var(--text-body) !important;
+        line-height: 1.85;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+        color: var(--accent);
+        text-decoration: none;
+        transition: var(--transition);
+    }
+
+    a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    /* Topbar Premium Dark */
+    .topbar {
+        background: rgba(10, 10, 10, 0.95);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border-bottom: 1px solid var(--border-subtle);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        padding: 16px 24px;
+    }
+
+    .topbar-inner {
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .brand {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        color: var(--text-heading);
+        font-family: "Outfit", sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+    }
+
+    .brand img {
+        width: 44px;
+        height: 44px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 1px solid var(--accent);
+    }
+
+    .brand span {
+        font-size: 13px;
+        letter-spacing: 1.5px;
+        color: #f0f0f0;
+    }
+
+    .back {
+        color: var(--text-heading);
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 8px 18px;
+        border-radius: 30px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid var(--border-subtle);
+        transition: var(--transition);
+    }
+
+    .back:hover {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: #0d0d0d;
+        text-decoration: none;
+    }
+
+    /* Hero Section Dark */
+    .hero {
+        background: radial-gradient(circle at 50% 0%, #17261d 0%, #0a0a0a 75%);
+        color: var(--text-heading);
+        padding: 100px 24px 110px;
+        text-align: center;
+        position: relative;
+    }
+
+    .hero span {
+        display: inline-block;
+        color: var(--accent);
+        font-family: "Outfit", sans-serif;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding: 6px 16px;
+        background: var(--accent-glow);
+        border-radius: 20px;
+        border: 1px solid rgba(197, 168, 128, 0.3);
+    }
+
+    .hero h1 {
+        font-family: "Outfit", sans-serif;
+        font-size: clamp(36px, 5vw, 56px);
+        font-weight: 700;
+        line-height: 1.15;
+        margin-bottom: 20px;
+        letter-spacing: -0.5px;
+        color: #ffffff;
+    }
+
+    .hero p {
+        max-width: 650px;
+        margin: auto;
+        color: var(--text-body);
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    /* Container & Content Dark Card */
+    .container {
+        max-width: 920px;
+        margin: -50px auto 90px;
+        padding: 0 24px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .content {
+        background: var(--card-dark) !important;
+        padding: clamp(35px, 6vw, 65px);
+        border-radius: 24px;
+        box-shadow: var(--shadow-premium);
+        border: 1px solid var(--border-subtle);
+    }
+
+    .intro {
+        font-size: 16px;
+        color: var(--text-muted);
+        margin-bottom: 45px;
+        padding-bottom: 25px;
+        border-bottom: 1px solid var(--border-subtle);
+        font-weight: 400;
+    }
+
+    section {
+        margin-bottom: 45px;
+    }
+
+    section:last-child {
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-family: "Outfit", sans-serif;
+        color: var(--text-heading) !important;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 16px;
+        letter-spacing: -0.3px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    h2::before {
+        content: '';
+        width: 5px;
+        height: 20px;
+        background: var(--accent);
+        border-radius: 3px;
+    }
+
+    p {
+        margin-bottom: 16px;
+        color: var(--text-body) !important;
+        font-size: 15px;
+    }
+
+    ul {
+        margin: 16px 0 20px 24px;
+    }
+
+    li {
+        margin-bottom: 10px;
+        color: var(--text-body) !important;
+        font-size: 15px;
+    }
+
+    /* Notice Box Dark */
+    .notice {
+        background: rgba(197, 168, 128, 0.08) !important;
+        border-left: 3px solid var(--accent);
+        padding: 22px 24px;
+        margin: 24px 0;
+        border-radius: 0 12px 12px 0;
+        font-size: 15px;
+        color: #e0e0e0 !important;
+        border-top: 1px solid rgba(197, 168, 128, 0.15);
+        border-right: 1px solid rgba(197, 168, 128, 0.15);
+        border-bottom: 1px solid rgba(197, 168, 128, 0.15);
+    }
+
+    /* Footer Dark */
+    .footer {
+        background: #050505;
+        color: var(--text-muted);
+        text-align: center;
+        padding: 50px 24px;
+        font-size: 14px;
+        border-top: 1px solid var(--border-subtle);
+    }
+
+    .footer p {
+        color: var(--text-muted) !important;
+        margin-bottom: 20px;
+    }
+
+    .footer a {
+        color: #cccccc;
+        font-weight: 500;
+        transition: var(--transition);
+    }
+
+    .footer a:hover {
+        color: var(--accent);
+        text-decoration: none;
+    }
+
+    .footer-links {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .topbar-inner {
+            flex-direction: column;
+            gap: 15px;
+        }
+        .hero {
+            padding: 80px 20px 90px;
+        }
+        .container {
+            margin-top: -30px;
+        }
+    }
+</style>
+</head>
+
+<body class="legal-page">
+
+    <header class="topbar">
+        <div class="topbar-inner">
+            <a href="index.html" class="brand">
+                <img src="CasaAlpinaLogo.jpeg" alt="AC Alvarez Construcciones">
+                <span>AC ALVAREZ CONSTRUCCIONES</span>
+            </a>
+            <a href="index.html" class="back">
+                ← Volver al sitio
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <span>Información Legal</span>
+        <h1>Términos y Condiciones</h1>
+        <p>Condiciones generales de uso del sitio web y marco operativo de AC Alvarez Construcciones.</p>
+    </section>
+
+    <main class="container">
+        <article class="content">
+            <p class="intro">
+                <strong style="color: var(--text-heading);">Última actualización:</strong> 11 de septiembre de 2026. Al acceder y navegar en este sitio web, usted acepta formalmente los presentes Términos y Condiciones.
+            </p>
+
+            <section>
+                <h2>1. Identificación</h2>
+                <p>Este sitio web es operado por <strong style="color: var(--text-heading);">AC Alvarez Construcciones</strong>, firma especializada en el diseño arquitectónico y construcción de Casas Alpinas A-Frame, cabañas de alta gama, piscinas y proyectos residenciales personalizados en Paraguay.</p>
+                <p>El portal web posee un carácter estrictamente informativo y de presentación corporativa, permitiendo a los clientes explorar soluciones y canalizar consultas iniciales.</p>
+            </section>
+
+            <section>
+                <h2>2. Uso del sitio web</h2>
+                <p>El usuario se compromete a hacer un uso diligente, ético y lícito del sitio web, absteniéndose de utilizarlo para realizar actividades ilícitas, contrarias a la buena fe o que puedan dañar la infraestructura tecnológica o reputación de la empresa.</p>
+            </section>
+
+            <section>
+                <h2>3. Información sobre servicios</h2>
+                <p>Los proyectos, renders y descripciones técnicas publicados tienen carácter ilustrativo y de referencia. Los servicios principales incluyen:</p>
+                <ul>
+                    <li>Diseño y ejecución de Casas Alpinas A-Frame.</li>
+                    <li>Construcción de cabañas y complejos habitacionales.</li>
+                    <li>Construcción y diseño de piscinas.</li>
+                    <li>Proyectos arquitectónicos personalizados a medida.</li>
+                    <li>Asesoramiento técnico integral para obras.</li>
+                </ul>
+                <div class="notice">
+                    <strong style="color: var(--accent);">Nota importante:</strong> Las especificaciones visuales, materiales o distribuciones mostradas no constituyen una oferta contractual vinculante ni aseguran idénticas condiciones presupuestarias para futuras obras, las cuales dependen de variables técnicas de cada terreno.
+                </div>
+            </section>
+
+            <section>
+                <h2>4. Presupuestos y consultas</h2>
+                <p>Las interacciones iniciadas a través del sitio web o canales de mensajería instantánea (WhatsApp) constituyen solicitudes de asesoramiento preliminar.</p>
+                <p>Ningún intercambio digital representa una reserva de obra o contrato definitivo. Las condiciones comerciales, plazos de ejecución, precios y memorias descriptivas se validan exclusivamente mediante contratos particulares firmados por ambas partes.</p>
+            </section>
+
+            <section>
+                <h2>5. Propiedad intelectual</h2>
+                <p>La totalidad de los contenidos visuales, fotográficos, gráficos, logotipos, tipografías, diseños estructurales y códigos de este sitio web se encuentran protegidos por las leyes vigentes de propiedad intelectual.</p>
+                <p>Queda prohibida su reproducción total o parcial sin la autorización expresa y por escrito de AC Alvarez Construcciones.</p>
+            </section>
+
+            <section>
+                <h2>6. Enlaces externos y WhatsApp</h2>
+                <p>El sitio incluye accesos directos a plataformas externas como WhatsApp e hipervínculos a redes sociales corporativas. Estas plataformas operan bajo sus propias políticas de privacidad y condiciones de servicio, sobre las cuales nuestra firma no ejerce control directo.</p>
+            </section>
+
+            <section>
+                <h2>7. Modificaciones y legislación</h2>
+                <p>AC Alvarez Construcciones se reserva el derecho absoluto de modificar, actualizar o suprimir contenidos del sitio web en cualquier momento. Los presentes términos se rigen e interpretan conforme a las leyes de la República del Paraguay.</p>
+            </section>
+
+            <section>
+                <h2>8. Contacto institucional</h2>
+                <p>Para cualquier duda o aclaración vinculada con estos términos, puede comunicarse con nosotros mediante:</p>
+                <p><strong style="color: var(--text-heading);">WhatsApp:</strong> <a href="https://wa.me/595981704655" target="_blank" rel="noopener noreferrer">+595 981 704 655</a></p>
+                <p><strong style="color: var(--text-heading);">Ubicación:</strong> Paraguay</p>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 AC Alvarez Construcciones. Todos los derechos reservados.</p>
+        <div class="footer-links">
+            <a href="terminos.html">Términos</a>
+            <a href="privacidad.html">Privacidad</a>
+            <a href="cookies.html">Cookies</a>
+            <a href="index.html">Inicio</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
